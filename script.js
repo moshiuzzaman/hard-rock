@@ -33,12 +33,12 @@ function demo(title, artist) {
             const lyrics = document.getElementById('lyrics');
             lyrics.innerHTML = "";
             if (data.lyrics == undefined) {
-                lyrics.innerHTML = `<button class="btn go-back">&lsaquo;</button><br>
+                lyrics.innerHTML = `<button   class="btn go-back bg-info"><a class="go-top" href="#main">Go To Top</a></button><br>
                     <h2 class="text-success mb-4">${title}</h2>
                     <pre class="lyric text-white">Sorry😋 ! ThiS Song Has No lyric. Try Another One</pre>`
                 alert("Sorry😋 ! ThiS Song Has No lyric. Try Another One")
             } else {
-                lyrics.innerHTML = `<button class="btn go-back">&lsaquo;</button><br>
+                lyrics.innerHTML = `<button   class="btn go-back bg-info"><a class="go-top" href="#main">Go To Top</a></button><br>
                     <h2 class="text-success mb-4">${title}</h2>
                     <pre class="lyric text-white">${data.lyrics} </pre>`
             }

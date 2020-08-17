@@ -38,4 +38,13 @@ body{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 }
-
+button.btn.go-back.bg-info {
+    margin-bottom: 23px;
+}
+.go-top{
+    color:white
+}
+.go-top:hover{
+    color:rgb(214, 207, 207);
+    text-decoration: none;    
+}
